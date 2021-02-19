@@ -30,7 +30,7 @@ namespace WindowsFormsDemo
             lbSessiz.Items.Clear();
             kelime = tbGiris.Text;
 
-            foreach (char harf1 in kelime)
+            foreach (char harf1 in kelime.ToLower())
             {
                 sayi = 0;
                 if (ddlSesliSessiz.SelectedIndex == 0)
