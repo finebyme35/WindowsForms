@@ -63,7 +63,7 @@ namespace WindowsFormsDemo
                 }
 
             }
-            if (ddlGeometrikSekil.SelectedIndex == 1 && ddlKenarSecimi.SelectedIndex == 1)
+            else if (ddlGeometrikSekil.SelectedIndex == 1 && ddlKenarSecimi.SelectedIndex == 1)
             {
 
                 if (ddlAlanCevreSecimi.SelectedIndex == 0)
@@ -76,7 +76,7 @@ namespace WindowsFormsDemo
                 }
 
             }
-            if (ddlGeometrikSekil.SelectedIndex == 2 && ddlKenarSecimi.SelectedIndex == 1)
+            else if (ddlGeometrikSekil.SelectedIndex == 2 && ddlKenarSecimi.SelectedIndex == 1)
             {
                 if (ddlAlanCevreSecimi.SelectedIndex == 0)
                 {
@@ -88,7 +88,7 @@ namespace WindowsFormsDemo
                 }
 
             }
-            if (ddlGeometrikSekil.SelectedIndex == 3 && ddlKenarSecimi.SelectedIndex == 2)
+            else if (ddlGeometrikSekil.SelectedIndex == 3 && ddlKenarSecimi.SelectedIndex == 2)
             {
 
                 if (ddlAlanCevreSecimi.SelectedIndex == 0)
@@ -101,7 +101,7 @@ namespace WindowsFormsDemo
                 }
 
             }
-            if (ddlGeometrikSekil.SelectedIndex == 4)
+            else if (ddlGeometrikSekil.SelectedIndex == 4)
             {
 
                 if (ddlAlanCevreSecimi.SelectedIndex == 0)
