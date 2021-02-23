@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SesliSessiz.resx">
       <DependentUpon>SesliSessiz.cs</DependentUpon>
@@ -123,5 +124,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resimler\1.png" />
+    <Content Include="Resimler\2.png" />
+    <Content Include="Resimler\3.png" />
+    <Content Include="Resimler\4.png" />
+    <Content Include="Resimler\5.png" />
+    <Content Include="Resimler\6.png" />
+    <Content Include="Resimler\7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
